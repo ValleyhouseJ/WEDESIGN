@@ -1,0 +1,94 @@
+*
+{
+box-sizing: border-box;
+margin: 0;
+}
+img
+{
+max-width: 100%;
+}
+header{
+    background-color: #EF7846;
+    position: fixed;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 40px;
+}
+header li{
+    display: inline;
+    padding: 10px;
+}
+header ul{
+    display: block;
+}
+header a{
+    text-decoration: none;
+    color: #EAEADE;
+    font-family: century-gothic, sans-serif; 
+    font-weight: bold;
+}
+.headerLogo{
+    position: absolute;
+    top: 10px;
+    height: 60px;
+    width: auto;
+}
+header img{
+    width: 180px;
+}
+section{
+    background-image: url(../img/Headerbaggrund2-01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top -20%;
+}
+
+#logo{
+   ?????????????????
+    }
+
+h1{
+    font-family: century-gothic, sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #EAEADE;
+    font-size: 50px;
+    text-align: center;
+}
+section p{
+    font-family: century-gothic, sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #EAEADE;
+    font-size: 20px;
+    text-align: center;
+}
+div img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-left: 65px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: century-gothic, sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E83879;
+    font-size: 25px;
+}
+button{
+    margin: 10px;
+}
+
+
