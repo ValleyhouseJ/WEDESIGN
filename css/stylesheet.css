@@ -12,35 +12,37 @@ body {
 header {
     background-color: #EF7846;
     position: fixed;
+    height: 80px;
     width: 100%;
 }
 header nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    height: 80px;
-    padding: 40px;
-}
-header li {
-    display: inline;
-    padding: 10px;
+    width: inherit;
 }
 header ul {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+header li {
+    list-style: none;
+    margin: 10px;
 }
 header a {
     text-decoration: none;
     color: #EAEADE;
     font-weight: bold;
 }
-.headerLogo {
-    position: absolute;
-    top: 10px;
-    height: 60px;
-    width: auto;
+.headerLogoBox {
+    display: flex;
+    
 }
-header img {
-    width: 180px;
+.headerLogo {
+
+    width: 60px;
 }
 .landingPage {
     background-image: url(../img/Headerbaggrund2-01.png);
