@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="../img/LOGOfavicon-01.svg">
     <title>WEDESIGN | About</title>
     <meta name="description" content="WEDESIGN is a creative multimedia studio based in Copenhagen that visualises and handcrafts your ideas, brands, websites, and experiences.">
     <meta name="keywords" content="Multimedia, Web design, Graphic design, Webdeveloper, Branding, Visual design, Quality, Digital craftsmen">
@@ -12,139 +13,58 @@
 <body>
     <header>
         <nav>
-            <a href="../index.html">
-                <img src="../img/LogoTekstHøjre-01.png" alt="Header logo">
-            </a>
+            <a href="../index.html" class="headerLogoBox"><img src="../img/LOGOicon-01.svg" alt="Wedesign logo"><span>Wedesign</span></a>
             <ul>
-                <li>
-                    <a href="about.html">
-                        <span>
-                            About
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="Branding.html">
-                        <span>
-                            Branding
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span>
-                            Marketing
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span>
-                            Websites
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span>
-                            E-commerce
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span>
-                            Contact
-                        </span>
-                    </a>
-                </li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/Branding.html">Branding</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Websites</a></li>
+                <li><a href="#">E-commerce</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-    <article>
-        <h1>
-            Who are we
-        </h1>
-    
-        <p>
-            WEDESIGN is a creative multimedia studio that visualises the ideas, products, and experiences you require. As artists, we know you and your struggles, and as professionals in our field, we know the solution.
-            <span>- We are real digital craftsmen</span>
-        </p>
-    </article>
-
-    <article>
-        <h2>
-            The team
-        </h2>
-        <figure>
-            <img src="" alt="Picture of Cathrine">
-            <figcaption>
-                Cathrine Abelsen
-                <br>
-                Graphic Designer
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="Picture of Jonas">
-            <figcaption>
-                Jonas Dahlhus
-                <br>
-                Web Designer
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="Picture of Camilla">
-            <figcaption>
-                Camilla Lorenzen  
-                <br>
-                Art director
-            </figcaption>
-        </figure>
-    </article>
-</main>
-    <footer>
-        <img src="../img/LOGO icon-01.svg" alt="Logo">
-        <a href="#">
-            Work with us
-        </a>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="../img/facebook-01.svg" alt="facebook link">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="../img/insta-01.svg" alt="insta link">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="../img/linkedin-01.svg" alt="ilinkedin link">
-                </a>
-            </li>
-        </ul>
-
-        <a href="mailto:wedesign@mail.com">wedesign@mail.com</a>
-
-        <a href="tel:+4531456035">Tel: +45 3145 6035</a>
-
-        <a href="https://www.google.com/maps/place/Hello+Monday/@55.6658995,12.5783361,17z/data=!3m1!4b1!4m5!3m4!1s0x46525311dc95031f:0x653c028e0411e843!8m2!3d55.6658995!4d12.5805301">
-            <p>
-            Copenhagen
-            <br>
-            Njalsgade 21F, Pakhus 5, St.
-            <br>
-            2300 Copenhagen S
-            </p> 
-        </a>
-    </footer>
-
+        <article class="aboutus">
+            <h1>Who We Are</h1>
+            <p>WEDESIGN is a creative multimedia studio that<br>visualises the ideas, products, and<br>experiences you require.<br>As artists, we know you and your struggles, and as<br>professionals in our field, we know the solution.<br></p>
+            <span id="craftsmen">- We are real digital craftsmen</span>
+        </article>
+        <article class="fotos">
+            <h2>The Team</h2>
+            <div class="fotoDiv">
+            <figure class="fotoo">
+                <img src="../img/cathrine.jpg" alt="Picture of Cathrine">
+                <figcaption class="tekst">
+                    Cathrine Abelsen<br><span class="titler">Graphic Designer</span>
+                </figcaption>
+            </figure>
+            <figure class="fotoo">
+                <img src="../img/jonas.png" alt="Picture of Jonas">
+                <figcaption class="tekst">
+                    Jonas Dahlhus<br><span class="titler">Web Designer</span>
+                </figcaption>
+            </figure>
+            <figure class="fotoo">
+                <img src="../img/camilla.jpg" alt="Picture of Camilla">
+                <figcaption class="tekst">
+                    Camilla Lorenzen<br><span class="titler">Art director</span>
+                </figcaption>
+            </figure>
+            </div>
+        </article>
+    </main>
+<footer>
+    <img src="../img/LOGOicon-01.svg" alt="Logo" class="footerLogo">
+    <a href="#" class="workWithUs">Work with us</a>
+    <ul>
+        <li><a href="#"><img src="../img/facebook-01.svg" alt="facebook link"></a></li>
+        <li><a href="#"><img src="../img/insta-01.svg" alt="insta link"></a></li>
+        <li><a href="#"><img src="../img/linkedin-01.svg" alt="ilinkedin link"></a></li>
+    </ul>
+    <a href="mailto:wedesign@mail.com" class="footerReference">wedesign@mail.com</a>
+    <a href="tel:+4531456035" class="footerReference">Tel: +45 3145 6035</a>
+    <a href="https://www.google.com/maps/place/Hello+Monday/@55.6658995,12.5783361,17z/data=!3m1!4b1!4m5!3m4!1s0x46525311dc95031f:0x653c028e0411e843!8m2!3d55.6658995!4d12.5805301" class="footerReference"><p>Copenhagen<br>Njalsgade 21F, Pakhus 5, St.<br>2300 Copenhagen S</p></a>
+</footer>
 </body>
 </html>
