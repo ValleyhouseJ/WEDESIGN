@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="icon" type="image/x-icon" href="img/LOGOfavicon-01.svg">
+    <script src="https://kit.fontawesome.com/f5df9e9075.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script/script.js" defer></script>
     <title>WEDESIGN</title>
     <meta name="description" content="WEDESIGN is a creative multimedia studio based in Copenhagen that visualises and handcrafts your ideas, brands, websites, and experiences.">
     <meta name="keywords" content="Multimedia, Web design, Graphic design, Webdeveloper, Branding, Visual design, Quality, Digital craftsmen">
@@ -14,6 +16,8 @@
     <header>
         <nav>
             <a href="index.html" class="headerLogoBox"><img src="./img/LOGOicon-01.svg" alt="Wedesign logo"><span>Wedesign</span></a>
+            <!--menu-->
+            <button class="burgerMenu"><i class="fa-solid fa-bars"></i></button>
             <ul>
                 <li><a href="./pages/about.html">About</a></li>
                 <li><a href="./pages/Branding.html">Branding</a></li>
@@ -34,9 +38,9 @@
     </section>
     <article id="h2Wrapper">
         <h2>Wedesign</h2>
-        <h2>Your <span id="animateText">placeholder</span></h2>
+        <h2>Your <span id="animateText"></span></h2>
     </article>
-    <div id="buttonsDiv">
+    <article id="buttonsDiv">
         <a href="#" id="button1" class="buttons">
             <h3>Branding</h3>
             <img src="./img/branding-01.svg" alt="Branding logo" class="buttonsImg">
@@ -53,46 +57,49 @@
             <h3>E-commerce</h3>
             <img src="./img/E-handel-01.svg" alt="E-commerce logo" class="buttonsImg">
         </a>
-    </div>
-    <div id="youtubeDiv">
-        <iframe src="https://www.youtube.com/embed/PL9iMPx9CpQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="youtube"></iframe>
-    </div>
+    </article>
+    <article id="youtubeDiv">
+        <video autoplay muted loop>
+            <source src="./video/WEDESIGNreklameNy.mp4" type="video/mp4">
+            The video is not supported, or will not load.
+        </video>
+    </article>
     <article id="seeOurWork">
         <h4>See our work</h4>
-        <div>
+        <article>
             <figure id="topLeft">
-                <img src="./img/e-handelfoto2.jpg" alt="E-commerce case 2">
+                <a href="#"><img src="./img/e-handelfoto2.jpg" alt="E-commerce case 2"></a>
                 <figcaption>E-commerce case</figcaption>
             </figure>
             <figure id="topMid">
-                <img src="./img/brandingfoto1.jpg" alt="Branding case 1">
+                <a href="#"><img src="./img/brandingfoto1.jpg" alt="Branding case 1"></a>
                 <figcaption>Branding case</figcaption>
             </figure>
             <figure id="topRight">
-                <img src="./img/E-handelfoto1.jpg" alt="e-commerce case 1">
+                <a href="#"><img src="./img/E-handelfoto1.jpg" alt="e-commerce case 1"></a>
                 <figcaption>E-commerce case</figcaption>
             </figure>
             <figure id="midLeft">
-                <img src="./img/Websitesfoto1.jpg" alt="Website case 1">
+                <a href="#"><img src="./img/Websitesfoto1.jpg" alt="Website case 1"></a>
                 <figcaption>Website case</figcaption>
             </figure>
             <figure id="midRight">
-                <img src="./img/Websitesfoto2.png" alt="Website case 2">
+                <a href="#"><img src="./img/Websitesfoto2.png" alt="Website case 2"></a>
                 <figcaption>Website case</figcaption>
             </figure>
             <figure id="botLeft">
-                <img src="./img/brandingfoto2.jpg" alt="branding case 2">
+                <a href="#"><img src="./img/brandingfoto2.jpg" alt="branding case 2"></a>
                 <figcaption>Branding case</figcaption>
             </figure>
             <figure id="botMid">
-                <img src="./img/Brandingfoto3.jpg" alt="Branding case 3">
+                <a href="#"><img src="./img/Brandingfoto3.jpg" alt="Branding case 3"></a>
                 <figcaption>Branding case</figcaption>
             </figure>
             <figure id="botRight">
-                <img src="./img/Marketingfoto1.jpg" alt="marketing case 1">
+                <a href="#"><img src="./img/Marketingfoto1.jpg" alt="marketing case 1"></a>
                 <figcaption>Marketing case</figcaption>
             </figure>
-        </div>
+        </article>
     </article>
 </main>
 <footer>
